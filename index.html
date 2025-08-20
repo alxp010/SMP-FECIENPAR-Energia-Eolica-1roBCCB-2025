@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi diseño de Canva</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f4f4f4;
+    }
+    .canva-embed {
+      position: relative;
+      width: 90%;
+      max-width: 900px;
+      height: 0;
+      padding-top: 56.25%; /* proporción 16:9 */
+      box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .canva-embed iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="canva-embed">
+    <iframe 
+      loading="lazy" 
+      src="https://www.canva.com/design/DAGwSh6r9x0/0HM8jqD92hD-M2xLPYXgWw/watch?embed" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
